@@ -1,65 +1,136 @@
-<style>
-    .nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dimas Arya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
-    .nav li {
-        float: left;
-    }
+  </head>
+  <body>
 
-    .nav li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold text-dark" aria-current="page" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold text-dark" aria-current="page" href="#skill">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold text-dark" aria-current="page" href="#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    .nav li a:hover {
-        background-color: #111;
-    }
-</style>
+    <div Id="foto-dimas" class="container d-flex flex-column align-items-center justify-content-center mb-5">
+       <img src="foto-dimas.jpeg" class="foto-dimas rounded-circle" alt="">  
+       <h1 class="title fw-bold">Dimas Aryaputra</h1>
+       <p class="subtitle">Mahasiswa Semester 5</p>
+       <i class="bi bi-arrow-down"></i>
+    </div>
 
-<html>
-<body>
-    <div class="nav"> 
-  <ul> 
-    <li><a href="">Biodata</a></li>
-    <li><a href="./portofolio.html">Portofolio</a></li>
-</ul>
-</div> 
-    <h1> Dimas Aryaputra</h1>
-     <img src="E:\DIMAS\XII MIPA 2\FOTO\Foto Ijazah\DIMAS ARYA PUTRA.jpg"
-      style="width: 250px;;height:200px;">
-     <p> Saya adalah mahasiswa Semester 5 jurusan Teknologi Pendidikan Fakultas Ilmu Pendidikan di Universitas Negeri Malang. 
-        Saat ini saya berdomisili di Kota Malang, Jawa Timur. Sekarang sedang mengikuti program Kemendikbudristek yaitu Kampus Merdeka Program Studi Independen di SEAL.
-     </body>
+    <div Id="about" class="container mb-5">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row">
+        <div class="col-6">
+          <img src="ini-dimas.jpeg" class="shadow rounded w-100" alt="">
+          </div>
+          <div class="col-6">
+            <div class="col-6">
+              <p class="text-about text-secondary lh-lg">Saya adalah mahasiswa Semester 5 jurusan Teknologi Pendidikan Fakultas Ilmu Pendidikan di Universitas Negeri Malang. Saat ini saya berdomisili di Kota Malang, Jawa Timur. Sekarang sedang mengikuti program Kemendikbudristek yaitu Kampus Merdeka Program Studi Independen di SEAL.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+<div Id="skill" class="container mb-5">
+  <h2 class="text-center mb-4">My Skills</h2>
+  <div class="row">
+    <div class="col-3">
+      <div class="card">
+        <img src="modul-pemb.PNG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Modul Pembelajaran Statistika Kelas XII MIPA</h5>
+          <p class="card-text">Tugas Mata Kuliah Bahan Pembelajaran. Modul ini berisi konten pembelajaran statistika untuk guru maupun siswa agar kegiatan Pembelajaran.</p>
+          <a href="modul-dimas.pdf" class="btn btn-primary w-100">Selengkapnya</a>
+        </div>
+      </div>
+    </div> <div class="col-3">
+      <div class="card">
+        <img src="tugas-observasi.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tugas Observasi Pengembangan Aplikasi</h5>
+          <p class="card-text">Tugas Mata Kuliah Proyek Fasilitasi Pembelajaran. Tugas yang berisi rancangan untuk kelanjutan pengembangan aplikasi.</p>
+          <a href="tgs-obs.pdf" class="btn btn-primary w-100">Selengkapnya</a>
+        </div>
+      </div>
+    </div> <div class="col-3">
+      <div class="card">
+        <img src="tugas-mmi.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pengembangan Aplikasi</h5>
+          <p class="card-text">Tugas Mata Kuliah Multimedia Interaktif. Pengembangan aplikasi ini menggunakan aplikasi StoryLine yang berisikan materi Rangkaian Listrik Kelas XII MIPA.</p>
+          <a href="3-Tutorial.html" class="btn btn-primary w-100">Selengkapnya</a>
+        </div>
+      </div>
+    </div> <div class="col-3">
+      <div class="card">
+        <img src="poster-budaya.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">UA Mahasiswa Peneliti dan Penulis Produktif (MP3)</h5>
+          <p class="card-text">Mengikuti lomba poster yang diadakan oleh UA MP3 se-Fakultas Ilmu Pendidikan di Universitas Negeri Malang.</p>
+          <a href="poster-budaya.png" class="btn btn-primary w-100">Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-     <h2>Riwayat Pendidikan </h2>
-   
-     <ul>
-        <l>SMP Negeri 4 Bolo (2014-2017)</li>
-        <li>SMA Negeri 1 Bolo (2017-2020)</li>
-        <li>Universitas Negeri Malang (2020-Sekarang)</li>
-       </ul>
-    
-       <h2>Keahlian </h2>
-       <ul>
-        <li>Microsoft Office</li>
-        <li>Kepenulisan dan Penelitian</li>
-        <li>UI Design</li>
-       </ul>   
-    <h2>Kontak</h2>
-    <ol>
-        <a href="https://facebook.com/dimasaryptrr/">Facebook</a>
-        <a href="https://instagram.com/dimasaryptrr/">Instagram</a>
-    </ol>
-</body>
-</html>    
+<div Id="contact" class="container mb-5">
+  <h2 class="text-center mb-3">Contact Me</h2>
+  <form class="col-6 mx-auto">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Nama</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama Lengkap">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary w-100">Kirim</button>
+  </form>
+</div>
 
+<div class="container-fluid">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc by Dimas Arya</span>
+    </div>
 
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="https://instagram.com/dimasaryptrr"><i class="bi bi-instagram"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://facebook.com/dimasaryptrr"><i class="bi bi-facebook"></i></a></li>
+    </ul>
+  </footer>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>  
+</html>
